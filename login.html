@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>PlatziVideo</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="header__img"
+        src="./assets/images/logo-platzi-video-BW2-V.2.png"
+        alt="Logo de PlatziVideo"
+      />
+    </header>
+    <main>
+      <section class="login">
+        <section class="login__container">
+          <h2>Inicia sesión</h2>
+          <form class="login__form" action="./index.html" method="POST">
+            <input class="login__input" type="email" name="user_email" placeholder="Correo">
+            <input class="login__input" type="password" name="user_password" placeholder="Contraseña">
+            <input class="login__button" type="submit" value="Iniciar sesión">
+          </form>
+          <article class="login__remember-me-container">
+            <div>
+              <input type="checkbox" name="user_remember" value="checkbox" id="check"> 
+              <label for="check">Recuerdame</label> 
+            </div>            
+            <a href="#">Olvidé mi contraseña</a>
+          </article>
+          <article class="login__social-media-container">
+            <div>
+              <img src="./assets/icons/icons8-google-plus-50.png" alt="Icono de google">
+              <p>Inicia sesión con Google</p>
+            </div>
+            <div>
+              <img src="./assets/icons/icons8-twitter-50.png" alt="Icono de twitter">
+              <p>Inicia sesión con Twitter</p>
+            </div>
+          </article>          
+          <p class="login__register-container">No tienes ninguna cuenta <a href="./register.html">Regístrate</a></p>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <a href="#">Terminos y condiciones</a>
+      <a href="#">Made with 💚 by MauricioJCarrillo</a>
+    </footer>
+  </body>
+</html>
