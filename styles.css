@@ -258,7 +258,7 @@ main {
 }
 .login__social-media-container div{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     padding-bottom: 10px;
     font-size: 1.4rem;
@@ -290,7 +290,7 @@ main {
     text-align: center;
     color: var(--white-platzi);
     text-decoration: none;
-} 
+}
 .link-login:hover {
     color: var(--green-platzi);
     text-decoration: underline;
@@ -334,7 +334,7 @@ footer {
     font-weight: normal;
     background-color: var(--blue-platzi);
 }
-footer a {
+footer a, p {
     color: var(--white-platzi);
     text-decoration: none;
 }
